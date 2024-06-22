@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to right, #ed2734, #03ff77);
+    text-align: center;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    height: 30px;
+    width: 130px;
+    border: 10px;
+    border-radius: 20px;
+    background-color: #7cc250;
+    font-weight: 600;
+}
+
+.copycode {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px;
+    border-left: 2px solid white;
+    background-color: rgb(255, 255, 255, 0.3);
+}
